@@ -8,6 +8,7 @@ authors:
     affiliation: Independent Researcher
 version: 0.1.0
 date-released: 2026-08-12
+doi: 10.5281/zenodo.21905318
 repository-code: "https://github.com/meki/protocol_governance_experiments"
 url: "https://github.com/meki/protocol_governance_experiments/releases/tag/v0.1.0"
 license: MIT
@@ -22,4 +23,3 @@ keywords:
   - institutional design
   - Monte Carlo simulation
   - reproducible research
-

@@ -1,5 +1,7 @@
 # Protocol Governance Experiments
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21905318.svg)](https://doi.org/10.5281/zenodo.21905318)
+
 This repository contains the complete computational evidence package for the article **Agreement Compression: From Counterculture to Protocol Governance** by Satoshi Sashida (Independent Researcher).
 
 The package contains three bounded forms of evidence:
@@ -36,7 +38,8 @@ The final command regenerates every declared table, figure, replicate file, and 
 
 This archival release is version 0.1.0. The release tag, rather than the mutable default branch, identifies the evidence package used for citation and preservation.
 
+Archived release: [Sashida (2026), *Protocol Governance Experiments: Evidence Package for Agreement Compression*, version 0.1.0](https://doi.org/10.5281/zenodo.21905318). The concept DOI for all versions is `10.5281/zenodo.21905317`.
+
 ## License
 
 The software and repository materials are released under the MIT License. The source documents listed in the retrospective audit remain subject to their respective publishers' terms and are linked rather than redistributed.
-
