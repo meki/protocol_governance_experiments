@@ -9,7 +9,7 @@
   ],
   "upload_type": "software",
   "publication_date": "2026-08-12",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "access_right": "open",
   "keywords": [
@@ -20,4 +20,3 @@
     "reproducible research"
   ]
 }
-

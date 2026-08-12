@@ -5,19 +5,19 @@
     "numpy": "2.1.2"
   },
   "git": {
-    "commit": "50ce5b2355c617ec16c7558ed863159d6a7004ad",
+    "commit": "51aaa216f0666804c7704a5192503cd82fc1f659",
     "dirty": true
   },
   "inputs": {
     "experiments\\configs\\prespecified.toml": "2a3a3aebe19f9a40dc0db17f428fb2402435ea7b24ae4110a33db2b1cbebe77f",
     "experiments\\data\\cases\\coding.csv": "99fbabcabddcff25db8cd1fe8e2b989ab60de9e1e69610b396bf30e874974ea3",
     "experiments\\data\\cases\\sources.csv": "d119e03db5e82d77756113f4fc5fbb81e12c6137ef18c64fa938873c33900a66",
-    "experiments\\pyproject.toml": "c797e8a983dc01b4d349bd8177c2f46402268386fbc657546af620883ac3a7e5",
+    "experiments\\pyproject.toml": "110b802563ffe01471ae521e227020f6282c9f873adef1dea59f845acce74ebd",
     "experiments\\src\\protocol_frontier\\__init__.py": "9febb2846e4836a04944fd5a6fcd9dc2eccd2661dc3892ca059c76713967a9de",
     "experiments\\src\\protocol_frontier\\analysis.py": "49c2ad1004dc06fc6cda1bd1467133241b62bf9048d52f9a030cf7fa7bf361ad",
     "experiments\\src\\protocol_frontier\\cli.py": "dbc368df7570591d02a9a0d2a46555823c585722a9ff44c78b6bc4c5657c69be",
     "experiments\\src\\protocol_frontier\\model.py": "0b12e881278515fc126ecbb77619a6eac66d021f0bb27de5d7fc0f3c09ef2b1a",
-    "experiments\\uv.lock": "3c41de247110dba8e4950703e08a0610594c9e413b08d523049bf76d6c1388d1"
+    "experiments\\uv.lock": "f608d8e6143b0e33b4340ec1c5fdf81cbd74f77c7464d389038c632bbd4ef68b"
   },
   "master_seed": 20260812,
   "outputs": {

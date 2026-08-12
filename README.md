@@ -36,9 +36,9 @@ The final command regenerates every declared table, figure, replicate file, and 
 
 ## Version
 
-This archival release is version 0.1.0. The release tag, rather than the mutable default branch, identifies the evidence package used for citation and preservation.
+The current archival release is version 0.1.1. The release tag, rather than the mutable default branch, identifies the evidence package used for citation and preservation. Version 0.1.1 changes only the package metadata and the development-only pytest pin; the evidence inputs, analysis implementation, and reported outputs are unchanged from version 0.1.0.
 
-Archived release: [Sashida (2026), *Protocol Governance Experiments: Evidence Package for Agreement Compression*, version 0.1.0](https://doi.org/10.5281/zenodo.21905318). The concept DOI for all versions is `10.5281/zenodo.21905317`.
+The concept DOI for all archived versions is `10.5281/zenodo.21905317`. Version 0.1.0 remains available at [10.5281/zenodo.21905318](https://doi.org/10.5281/zenodo.21905318).
 
 ## License
 

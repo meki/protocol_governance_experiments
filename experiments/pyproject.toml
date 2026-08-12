@@ -1,6 +1,6 @@
 [project]
 name = "protocol-frontier-evidence"
-version = "0.1.0"
+version = "0.1.1"
 description = "Runnable mechanism simulation and retrospective evidence audit for the Protocolization Frontier"
 requires-python = ">=3.12,<3.13"
 dependencies = [
@@ -13,7 +13,7 @@ protocol-frontier = "protocol_frontier.cli:main"
 
 [dependency-groups]
 dev = [
-  "pytest==8.3.3",
+  "pytest==9.0.3",
 ]
 
 [build-system]
