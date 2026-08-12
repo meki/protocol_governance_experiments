@@ -11,8 +11,8 @@ jobs:
   test-and-run:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
       - name: Install uv
@@ -26,4 +26,3 @@ jobs:
       - name: Regenerate all evidence outputs
         working-directory: experiments
         run: uv run protocol-frontier run-all
-
