@@ -1,0 +1,23 @@
+{
+  "title": "Protocol Governance Experiments: Evidence Package for Agreement Compression",
+  "description": "Runnable fixed-cost graph sweep, designed case-flow simulation, bilateral-error sensitivity analysis, and retrospective evidence-availability audit accompanying Agreement Compression: From Counterculture to Protocol Governance.",
+  "creators": [
+    {
+      "name": "Sashida, Satoshi",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "upload_type": "software",
+  "publication_date": "2026-08-12",
+  "version": "0.1.0",
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "agreement compression",
+    "protocol governance",
+    "institutional design",
+    "Monte Carlo simulation",
+    "reproducible research"
+  ]
+}
+

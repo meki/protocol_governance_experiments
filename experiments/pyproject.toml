@@ -1,0 +1,28 @@
+[project]
+name = "protocol-frontier-evidence"
+version = "0.1.0"
+description = "Runnable mechanism simulation and retrospective evidence audit for the Protocolization Frontier"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "matplotlib==3.9.2",
+  "numpy==2.1.2",
+]
+
+[project.scripts]
+protocol-frontier = "protocol_frontier.cli:main"
+
+[dependency-groups]
+dev = [
+  "pytest==8.3.3",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/protocol_frontier"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

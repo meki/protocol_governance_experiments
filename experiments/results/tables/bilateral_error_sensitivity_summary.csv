@@ -1,0 +1,41 @@
+scenario,scenario_label,regime,bilateral_error_rate,welfare_difference_mean,welfare_difference_q025,welfare_difference_q975,probability_welfare_difference_positive
+high_exception,High exception frequency,protocol_binary,0.0,-249.0725,-1311.125,722.1249999999999,0.3575
+high_exception,High exception frequency,protocol_binary,0.01,675.9275,-386.125,1647.125,0.87
+high_exception,High exception frequency,protocol_binary,0.03,2525.9275,1463.875,3497.125,1
+high_exception,High exception frequency,protocol_binary,0.05,4375.9275,3313.875,5347.125,1
+high_exception,High exception frequency,protocol_escalation,0.0,-3038.7025,-3863.0,-2181.9,0
+high_exception,High exception frequency,protocol_escalation,0.01,-2113.7025,-2938.0,-1256.9,0
+high_exception,High exception frequency,protocol_escalation,0.03,-263.7025,-1088.0,593.0999999999999,0.295
+high_exception,High exception frequency,protocol_escalation,0.05,1586.2975,762.0,2443.1,1
+induced_unequal_access,Induced access with unequal legibility,protocol_binary,0.0,9248.4715,8358.384999999998,10058.119999999999,1
+induced_unequal_access,Induced access with unequal legibility,protocol_binary,0.01,9821.0946,8930.305250000001,10624.22925,1
+induced_unequal_access,Induced access with unequal legibility,protocol_binary,0.03,10966.3408,10076.7735,11756.44775,1
+induced_unequal_access,Induced access with unequal legibility,protocol_binary,0.05,12111.587,11254.0025,12895.453749999999,1
+induced_unequal_access,Induced access with unequal legibility,protocol_escalation,0.0,8341.364,7673.360000000001,9001.085,1
+induced_unequal_access,Induced access with unequal legibility,protocol_escalation,0.01,8913.9871,8244.29775,9566.921999999999,1
+induced_unequal_access,Induced access with unequal legibility,protocol_escalation,0.03,10059.2333,9386.173250000002,10686.871,1
+induced_unequal_access,Induced access with unequal legibility,protocol_escalation,0.05,11204.4795,10526.62125,11835.43625,1
+low_volume_fixed_cost,Low volume with high fixed cost,protocol_binary,0.0,-86.95875000000007,-336.55,99.05249999999994,0.23
+low_volume_fixed_cost,Low volume with high fixed cost,protocol_binary,0.01,23.79612499999993,-227.585,223.15975000000006,0.6075
+low_volume_fixed_cost,Low volume with high fixed cost,protocol_binary,0.03,245.30587499999993,-9.213499999999998,458.87274999999994,0.97
+low_volume_fixed_cost,Low volume with high fixed cost,protocol_binary,0.05,466.81562499999995,209.19750000000002,700.3937499999998,1
+low_volume_fixed_cost,Low volume with high fixed cost,protocol_escalation,0.0,-180.59625000000008,-396.585,23.43249999999961,0.0475
+low_volume_fixed_cost,Low volume with high fixed cost,protocol_escalation,0.01,-69.84137500000007,-296.67200000000014,135.47324999999967,0.27
+low_volume_fixed_cost,Low volume with high fixed cost,protocol_escalation,0.03,151.6683749999999,-67.6262500000004,367.5269999999998,0.9125
+low_volume_fixed_cost,Low volume with high fixed cost,protocol_escalation,0.05,373.17812499999997,153.87375,608.6724999999999,1
+post_drift_high_error,Post-drift stationary high-error condition,protocol_binary,0.0,-7208.6125,-8671.275,-5715.200000000001,0
+post_drift_high_error,Post-drift stationary high-error condition,protocol_binary,0.01,-6283.6125,-7746.275,-4790.200000000001,0
+post_drift_high_error,Post-drift stationary high-error condition,protocol_binary,0.03,-4433.6125,-5896.275,-2940.2000000000007,0
+post_drift_high_error,Post-drift stationary high-error condition,protocol_binary,0.05,-2583.6125,-4046.275,-1090.2000000000007,0
+post_drift_high_error,Post-drift stationary high-error condition,protocol_escalation,0.0,-8304.4475,-9766.175,-6952.9,0
+post_drift_high_error,Post-drift stationary high-error condition,protocol_escalation,0.01,-7379.4475,-8841.175,-6027.9,0
+post_drift_high_error,Post-drift stationary high-error condition,protocol_escalation,0.03,-5529.4475,-6991.175,-4177.9,0
+post_drift_high_error,Post-drift stationary high-error condition,protocol_escalation,0.05,-3679.4475,-5141.175,-2327.9,0
+stable_high_volume,Stable high-volume coordination,protocol_binary,0.0,7567.36,7003.075,8088.05,1
+stable_high_volume,Stable high-volume coordination,protocol_binary,0.01,8492.36,7928.075,9013.05,1
+stable_high_volume,Stable high-volume coordination,protocol_binary,0.03,10342.36,9778.075,10863.05,1
+stable_high_volume,Stable high-volume coordination,protocol_binary,0.05,12192.36,11628.075,12713.05,1
+stable_high_volume,Stable high-volume coordination,protocol_escalation,0.0,6997.53,6495.925,7429.549999999999,1
+stable_high_volume,Stable high-volume coordination,protocol_escalation,0.01,7922.53,7420.925,8354.55,1
+stable_high_volume,Stable high-volume coordination,protocol_escalation,0.03,9772.53,9270.925,10204.55,1
+stable_high_volume,Stable high-volume coordination,protocol_escalation,0.05,11622.53,11120.925,12054.55,1

@@ -1,0 +1,97 @@
+schema_version = 1
+master_seed = 20260812
+replicates = 400
+cases_per_replicate = 2500
+groups = ["reference", "disadvantaged"]
+
+[scaling]
+replicates = 400
+agent_counts = [8, 16, 32, 64, 128, 256]
+design_cost = 180.0
+bilateral_mapping_mean = 10.0
+adapter_cost_mean = 24.0
+cost_coefficient_of_variation = 0.25
+fixed_density = 0.10
+ring_degree = 4
+
+[sensitivity]
+bilateral_error_rates = [0.00, 0.01, 0.03, 0.05]
+
+[decision]
+rights_false_denial_ceiling = 0.05
+rights_group_gap_ceiling = 0.05
+cost_tolerance = 0.0
+welfare_tolerance = 0.0
+
+[common]
+bilateral_fixed_cost = 850.0
+protocol_design_cost = 1200.0
+protocol_adoption_cost = 500.0
+bilateral_unit_cost = 5.8
+protocol_unit_cost = 1.5
+escalation_unit_cost = 12.0
+false_decision_cost = 35.0
+access_value = 9.0
+correct_completion_value = 2.0
+base_positive_rate = 0.42
+disadvantaged_share = 0.35
+
+[[scenarios]]
+id = "stable_high_volume"
+label = "Stable high-volume coordination"
+bilateral_volume_multiplier = 1.0
+protocol_volume_multiplier = 1.0
+encoding_failure_reference = 0.015
+encoding_failure_disadvantaged = 0.025
+decision_uncertainty = 0.03
+represented_error = 0.015
+additional_error = 0.0
+maintenance_cost = 180.0
+
+[[scenarios]]
+id = "high_exception"
+label = "High exception frequency"
+bilateral_volume_multiplier = 1.0
+protocol_volume_multiplier = 1.0
+encoding_failure_reference = 0.10
+encoding_failure_disadvantaged = 0.18
+decision_uncertainty = 0.18
+represented_error = 0.06
+additional_error = 0.0
+maintenance_cost = 420.0
+
+[[scenarios]]
+id = "induced_unequal_access"
+label = "Induced access with unequal legibility"
+bilateral_volume_multiplier = 0.62
+protocol_volume_multiplier = 1.0
+encoding_failure_reference = 0.025
+encoding_failure_disadvantaged = 0.18
+decision_uncertainty = 0.07
+represented_error = 0.025
+additional_error = 0.0
+maintenance_cost = 220.0
+
+[[scenarios]]
+id = "low_volume_fixed_cost"
+label = "Low volume with high fixed cost"
+bilateral_volume_multiplier = 0.12
+protocol_volume_multiplier = 0.12
+encoding_failure_reference = 0.02
+encoding_failure_disadvantaged = 0.03
+decision_uncertainty = 0.04
+represented_error = 0.02
+additional_error = 0.0
+maintenance_cost = 180.0
+
+[[scenarios]]
+id = "post_drift_high_error"
+label = "Post-drift stationary high-error condition"
+bilateral_volume_multiplier = 1.0
+protocol_volume_multiplier = 1.0
+encoding_failure_reference = 0.03
+encoding_failure_disadvantaged = 0.06
+decision_uncertainty = 0.06
+represented_error = 0.02
+additional_error = 0.16
+maintenance_cost = 300.0
